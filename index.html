@@ -8,9 +8,32 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="icon" href="nerv.jpg">
     <title>Nerv</title>
+    <style>
+        .card{
+            width: 450px;
+            height: 600px;
+            background-color: black;
+        }
+        .card>img{
+            height: 400px; 
+            
+        }
+        @media (max-width: 500px) {
+            .card{
+                width: 100%;
+                padding: 10px 10px;
+            }
+        }
+        p{
+            color: gold;
+        }
+        h5{
+            color: white;
+        }
+    </style>
 </head>
 
-<body>
+<body style="background-color: black;">
     <nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-top">
         <div class="container-fluid">
             <a href="#" class="navbar-brand">NERV</a>
@@ -23,34 +46,23 @@
             <div class="collapse navbar-collapse" id="nav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="#Dinara" class="nav-link">Dinara</a>
+                        <a href="#Dinara" class="nav-link">Nəticələr</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#Xeyal" class="nav-link">Xeyal</a>
+                        <a href="#Xeyal" class="nav-link">Üzvlər</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#Kevin" class="nav-link">Kevin</a>
+                        <a href="#Kevin" class="nav-link disabled" >Kevin</a> 
                     </li>
-                    <li class="nav-item">
-                        <a href="#Toghrul" class="nav-link">Toghrul</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#Zakir" class="nav-link">Zakir</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#Elmir" class="nav-link">Elmir</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#Leman" class="nav-link">Leman</a>
-                    </li>
+                    
                 </ul>
             </div>
         </div>
     </nav>
 
     <br><br><br>
-    <div class="table-responsive">
-        <div class="display-1 text-center">NERV QRUPUNUN CEDVELI</div>
+    <div class="table-responsive" style="width: 90%; margin: auto;" id="Dinara"> 
+        <div class="display-4 fw-bold mb-4 text-center">NERV QRUPUNUN CEDVELI</div>
         <table class="table table-dark table-striped table-bordered table-hover ">
             <tr class="table-info ">
                 <th>Ad</th>
@@ -105,12 +117,12 @@
     </div>
 
 
-    <p class="text-center display-5">BU QRUPUN HEM TELEBELERIN HEM DE SON IMTAHANIN NETICELERININ CEDVELIDIR</p>
+    <p class="text-center display-4 fw-bold mt-5 mb-0">BU QRUPUN HEM TELEBELERIN HEM DE SON IMTAHANIN NETICELERININ CEDVELIDIR</p>
     <br><br><br><br>
-
-    <section id="Dinara">
-        <div class="card my-3 " style="width: 350px;">
-            <img src="Dinara.jpg" class="card-img-top" style="margin-top: 80px;">
+<div class="d-flex justify-content-evenly flex-wrap">
+    <section>
+        <div class="card my-3 " >
+            <img src="Dinara.jpg" class="card-img-top" >
             <div class="card-body">
                 <h5 class="card-title">
                     Dinara Osadchaya
@@ -121,12 +133,12 @@
                 <a href="https://www.instagram.com/os.kqugo/" class="card-link">See Profile</a> 
             </div>
         </div>
-    </section>
+    </section> 
 
 
     <section id="Kevin">
-        <div class="card my-3 " style="width: 350px;">
-            <img src="Kevin.jpg" class="card-img-top" style="margin-top: 80px;">
+        <div class="card my-3 " >
+            <img src="Kevin.jpg" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">
                     Kamal Feyzullayev
@@ -138,13 +150,13 @@
                     masinindan cox razidir cunki onun masinin radiosu isleyir.
                 </p>
                 <a href="https://www.instagram.com/feyzullayev735/" class="card-link">See Profile</a>
-            </div> bildin ne diyon islemediki ala onu demirem sey cixmir bar
-        </div> githuba oturdun ahhahahahahahahah
+            </div> 
+        </div> 
     </section>
 
-    <section id="Elmir">lo
-        <div class="card my-3 " style="width: 350px;"> 
-            <img src="Elmir.jpg" class="card-img-top" style="margin-top: 80px;">
+    <section id="Elmir">
+        <div class="card my-3 " > 
+            <img src="Elmir.jpg" class="card-img-top" >
             <div class="card-body">
                 <h5 class="card-title">
                     Elmir Qasimzade
@@ -158,8 +170,8 @@
     </section>
 
     <section id="Xeyal">
-        <div class="card my-3" style="width: 350px;">
-            <img src="Khayal.jpg" class="card-img-top" style="margin-top: 80px;">
+        <div class="card my-3" >
+            <img src="Khayal.jpg" class="card-img-top" >
             <div class="card-body">
                 <h5 class="card-title">
                     Khayal Mansimov
@@ -173,10 +185,11 @@
 
         </div>
     </section>
-
+</div>
+<div class="d-flex justify-content-evenly flex-wrap">
     <section id="Leman">
-        <div class="card my-3 " style="width: 350px;">
-            <img src="leman.jpg" class="card-img-top" style="margin-top: 80px;">
+        <div class="card my-3 " >
+            <img src="leman.jpg" class="card-img-top" >
             <div class="card-body">
                 <h5 class="card-title">
                     Leman Eskerova
@@ -191,8 +204,8 @@
         </div>
     </section>
     <section id="Zakir"> 
-        <div class="card my-3 " style="width: 350px;">
-            <img src="ziko.jpg" class="card-img-top" style="margin-top: 80px;;">
+        <div class="card my-3 " >
+            <img src="ziko.jpg" class="card-img-top" >
             <div class="card-body">
                 <h5 class="card-title">
                     Zakir Kazimzade
@@ -205,33 +218,32 @@
         </div>
     </section>
 
-
     <section id="Toghrul">
-        <div class="card my-3 " style="width: 350px;">
-            <img src="tugrul (2).jpg" class="card-img-top" style="margin-top: 80px;;">
+        <div class="card my-3 " >
+            <img src="tugrul (2).jpg" class="card-img-top" >
             <div class="card-body">
                 <h5 class="card-title">
                     Toghrul Huseynli
                 </h5>
                 <p class="card-text">
-                    bla bla bla
+                    Toghrul 19 yasi var.Adnsu da oxuyur."CSGO" ve "CALL OF DUTY" kimi oyunlari oynamaq onun hobbisidir
                 </p>
                 <a href="https://www.instagram.com/011.zakir/" class="card-link">See Profile</a>
             </div>
         </div>
     </section>
-
+</div>
 
     <br>
-    <nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-bottom">
+    <nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-bottom"> una bax altda qalir
         <p class="text-white mx-auto my-auto">
 
-            Design by Ziko &copy; 2023
+            Design by Ziko &copy; 2023 
         </p>
     </nav>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
-</body>
+</body> 
 
 </html>
